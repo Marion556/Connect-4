@@ -132,7 +132,7 @@ function handleClick(evt) {
   }
   // switch players
   // TODO: switch currPlayer 1 <-> 2
-  if (currPlayer === 1 ? (currPlayer = 2) : (currPlayer = 1));
+  (currPlayer === 1 ? (currPlayer = 2) : (currPlayer = 1));
 }
 
 
